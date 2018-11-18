@@ -5,6 +5,8 @@ The only exported symbol is :function:`hyperspec:lookup`.  It takes a symbol or 
 
 The library is based on the implementations of this functionality in sly [#sly-hyperspec]_ and slime [#slime-hyperspec]_ .
 
+Documentation: `<https://fisxoj.github.io/hyperspec>`_.
+
 
 .. _hyperspec: http://www.lispworks.com/documentation/HyperSpec/Front/index.htm
 
