@@ -1,7 +1,7 @@
 (defsystem "hyperspec"
   :author "Matt Novenstern"
   :version "0.1.1"
-  :license "LLGPLv3+"
+  :license "LLGPL"
   :depends-on ("alexandria")
   :pathname "src/"
   :description "A simple library for looking up common-lisp symbols in the hyperspec."
