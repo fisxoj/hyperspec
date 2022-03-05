@@ -20,7 +20,7 @@ something like ``file://usr/local/doc/HyperSpec/``.")
 (defun clean-symbol (symbol)
   "Takes a symbol or string and returns a downcased string of the symbol if it's in the common-lisp package."
 
-  (when (uiop:find-symbol* symbol :common-lisp nil)
+  (when (nth-value 1 (find-symbol (string symbol) :common-lisp))
     (etypecase symbol
       (symbol (string-downcase (symbol-name symbol)))
       ;; If its a string, try to remove the package
